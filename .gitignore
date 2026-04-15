@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project data and artifacts
+data/raw/*
+data/processed/*
+data/external/*
+models/*
+reports/figures/*
+
+# Keep placeholder files tracked
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!models/.gitkeep
+!reports/figures/.gitkeep
+
+# Logs and outputs
+*.log
